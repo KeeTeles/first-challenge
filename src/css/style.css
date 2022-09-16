@@ -1,0 +1,80 @@
+body{
+    background-color: var(--primary-body);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    max-width: 261px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+.card .card-top img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+}
+
+.picture{
+    max-width: 82px;
+    transform: translateY(-50px);
+}
+
+.card-name{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-39px);
+    color: var(--primary-2);
+}
+
+.city{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-35px);
+    color: var(--primary-3);
+}
+
+
+.highlight{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+    color: var(--primary-2);
+   
+    
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-top: solid 1px var(--neutral-dark);
+    transform: translateY(-14px);
+    color: var(--primary-3);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 40px 0 40px;
+}
+
+.card-pict{
+    display: flex;
+    justify-content: center;
+}
+
+.card-pict img{
+    border-radius: 49px;
+    border: solid 2px #fff;
+}
