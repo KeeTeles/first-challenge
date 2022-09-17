@@ -1,9 +1,16 @@
 body{
     background-color: var(--primary-body);
     font-family: 'Kumbh Sans', sans-serif;
+    
 }
 
-main{
+hr{
+    width: 100%;
+    transform: translateY(-15px);
+}
+
+
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +21,7 @@ main{
     max-width: 261px;
     background-color: #fff;
     border-radius: 10px;
-    
+    z-index: 1;
     
 }
 
@@ -23,16 +30,17 @@ main{
 .card .card-top img{
     width: 100%;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;    
+    border-top-right-radius: 10px;
+    height: 112px;    
 }
 
 .picture{
     max-width: 82px;
-    transform: translateY(-50px);
+    transform: translateY(-47px);
 }
 
 .card-name{
-    font-size: 14px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     transform: translateY(-39px);
@@ -40,7 +48,7 @@ main{
 }
 
 .city{
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     transform: translateY(-35px);
@@ -53,20 +61,28 @@ main{
     font-weight: 700;
     padding-top: 10px;
     color: var(--primary-2);
-   
     
+    
+}
+
+.highlight span{
+    color: var(--primary-3);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 4px;
 }
 
 .stats{
     display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    border-top: solid 1px var(--neutral-dark);
-    transform: translateY(-14px);
+    justify-content: space-around;
+    text-align: center;
     color: var(--primary-3);
-    font-size: 14px;
+    font-size: 8px;
     font-weight: 400;
-    padding: 0 40px 0 40px;
+    line-height: 20px;
+    padding: 10px 25px 0px 15px;
+    transform: translateY(-19px);
+    
 }
 
 .card-pict{
@@ -78,3 +94,16 @@ main{
     border-radius: 49px;
     border: solid 2px #fff;
 }
+
+.top{
+    position: absolute;
+    transform: translate(-200px, -470px);
+}
+
+/* .bottom{
+    position: absolute;
+    transform: translateY(500px);
+    transform: translateX(550px);
+    max-width: 700px;
+    max-height: 700px;
+} */
